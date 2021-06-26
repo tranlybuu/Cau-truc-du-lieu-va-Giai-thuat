@@ -15,8 +15,8 @@ agile <- it$AddChild("J")
 goToR <- it$AddChild("K")
 print(acme)
 
-# Duyệt cây trước
+# Duyệt cây theo thứ tự trước
 acme$Get('level')
 
-# Duyệt cây sau
+# Duyệt cây theo thứ tự sau
 acme$Get('level', traversal = "post-order")
